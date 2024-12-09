@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
 
 env:
-  COOKIE: ${{ secrets.COOKIE }}
+  COOKIE: __tea_cookie_tokens_2608=%257B%2522web_id%2522%253A%25227338000826650969610%2522%252C%2522user_unique_id%2522%253A%25227338000826650969610%2522%252C%2522timestamp%2522%253A1708511470594%257D; sid_guard=619bd9476a8696ead1bba24f77cefb55%7C1708911688%7C31536000%7CTue%2C+25-Feb-2025+01%3A41%3A28+GMT; uid_tt=79a2018e81577b559a9ee17cf82e8b42; uid_tt_ss=79a2018e81577b559a9ee17cf82e8b42; sid_tt=619bd9476a8696ead1bba24f77cefb55; sessionid=619bd9476a8696ead1bba24f77cefb55; sessionid_ss=619bd9476a8696ead1bba24f77cefb55; sid_ucp_v1=1.0.0-KDJiMDhmZTAzN2JjZmM4MzVjYTIwYzZlMzk1MzRlODRlMGU4YTM2NGUKFwiovoDWt82EBBDI2O-uBhiwFDgCQPEHGgJscSIgNjE5YmQ5NDc2YTg2OTZlYWQxYmJhMjRmNzdjZWZiNTU; ssid_ucp_v1=1.0.0-KDJiMDhmZTAzN2JjZmM4MzVjYTIwYzZlMzk1MzRlODRlMGU4YTM2NGUKFwiovoDWt82EBBDI2O-uBhiwFDgCQPEHGgJscSIgNjE5YmQ5NDc2YTg2OTZlYWQxYmJhMjRmNzdjZWZiNTU; store-region=cn-sh; store-region-src=uid; _tea_utm_cache_2608={%22utm_source%22:%22gold_browser_extension%22}; _tea_utm_cache_2018={%22utm_source%22:%22gold_browser_extension%22};
   COOKIE_2: ${{ secrets.COOKIE_2 }}
   COOKIE_3: ${{ secrets.COOKIE_3 }}
   COOKIE_4: ${{ secrets.COOKIE_4 }}
